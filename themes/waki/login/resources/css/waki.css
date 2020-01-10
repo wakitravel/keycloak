@@ -15,6 +15,11 @@
     background-size: 80% 80%;
     background-position: center center;
     height: 120px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
 
 #kc-header-wrapper {
@@ -23,4 +28,9 @@
 
 .waki-name-hide {
     display: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
 }
